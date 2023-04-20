@@ -64,13 +64,13 @@ public class RegisterDemo {
 		ChromeOptions option = new ChromeOptions();
        		option.addArguments("--remote-allow-origins=*");
 
-		WebDriver driver = new ChromeDriver(option);
+		// WebDriver driver = new ChromeDriver(option);
 
 		// Set the system property for the Edge browser
-		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
 
 		// Create the instance of Edge driver in Webdriver interface
-		// driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		
 		// Implicity wait
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
