@@ -61,8 +61,8 @@ public class RegisterDemo {
 	@BeforeClass
 	public void launchApplication() {
 		
-		ChromeOptions option = new ChromeOptions();
-       		option.addArguments("--remote-allow-origins=*");
+		// ChromeOptions option = new ChromeOptions();
+       		// option.addArguments("--remote-allow-origins=*");
 
 		// WebDriver driver = new ChromeDriver(option);
 
